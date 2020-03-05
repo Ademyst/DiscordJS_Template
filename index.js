@@ -44,4 +44,4 @@ bot.on("message", async message => {
 })
 
 
-bot.login(config.525133175110762506)
+bot.login(config.token)
