@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const config = require("./config.json")
-const bot = new Discord.Client();
+const bot = new Discord.Client(525133175110762506);
 const fs = require("fs");
 bot.commands = new Discord.Collection();
 if(config.token === "NTI1MTMzMTc1MTEwNzYyNTA2.XmEy_w.N9WzNZYn1-OO9Z6KGJmwMSvEFdE") return console.log("NTI1MTMzMTc1MTEwNzYyNTA2.XmEy_w.N9WzNZYn1-OO9Z6KGJmwMSvEFdE");
@@ -44,4 +44,4 @@ bot.on("message", async message => {
 })
 
 
-bot.login(config.NTI1MTMzMTc1MTEwNzYyNTA2.XmE0Qg.kByJJ3VOLyWmMQljldsc-j92aTk)
+bot.login(config.525133175110762506)
