@@ -3,7 +3,7 @@ const config = require("./config.json")
 const bot = new Discord.Client(525133175110762506);
 const fs = require("fs");
 bot.commands = new Discord.Collection();
-if(config.token === "NTI1MTMzMTc1MTEwNzYyNTA2.XmEy_w.N9WzNZYn1-OO9Z6KGJmwMSvEFdE") return console.log("NTI1MTMzMTc1MTEwNzYyNTA2.XmEy_w.N9WzNZYn1-OO9Z6KGJmwMSvEFdE");
+if(config.token === ("NTI1MTMzMTc1MTEwNzYyNTA2.XmEy_w.N9WzNZYn1-OO9Z6KGJmwMSvEFdE") return console.log("NTI1MTMzMTc1MTEwNzYyNTA2.XmEy_w.N9WzNZYn1-OO9Z6KGJmwMSvEFdE");
 
 fs.readdir("./commands/", (err, files) => {
 
