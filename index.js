@@ -1,6 +1,6 @@
 const Discord = require("discord.js")
 const config = require("./config.json")
-const bot = new Discord.Client(525133175110762506);
+const bot = new Discord.Client();
 const fs = require("fs");
 bot.commands = new Discord.Collection();
 if(config.token === ("") return console.log("");
